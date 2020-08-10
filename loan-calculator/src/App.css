@@ -1,0 +1,32 @@
+.main {
+    width: 100%;
+    display: flex;
+}
+
+.loan-request {
+    display: inline-block;
+}
+
+.loan-response {
+    display: inline-block;
+}
+
+.loan-request, .loan-response {
+    margin: 10px;
+}
+
+.calculation-info, .input-group {
+    margin: 0.2em;
+}
+
+span.result {
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+}
+
+.input-group label,.input-group input {
+    display: block
+}
